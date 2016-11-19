@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "md";
+	src: url("md.ttf");
+}
+@font-face {
+	font-family: "m";
+	src: url("m.ttf");
+}
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 240px;
+	border-bottom: 1px solid #eee;
+}
+.logo {
+	font-family:md;
+	font-size: 34px;
+	color: #252525;
+
+}
+input {
+	position: absolute;
+	width: 440px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	bottom: 0;
+}
