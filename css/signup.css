@@ -157,7 +157,23 @@ select {
 	font-size: 16px;
 	font-weight: 300;
 }
+.next2 {
+	position: relative;
+	left: 7.5%;
+	margin-top: 16px;
+	width: 140px;
+	height: 45px;
+	border: none;
+	font-family: open sans;
+	background: #28acd2;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+}
 .pg2 {
+	display: none;
+}
+.pg3 {
 	display: none;
 }
 a {

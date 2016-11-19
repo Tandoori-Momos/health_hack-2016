@@ -28,7 +28,10 @@
             "account_type" => $_POST['acc'],
             "city" => $_POST['city'],
             "state" => $_POST['state'],
-            "country" => $_POST['country']
+            "country" => $_POST['country'],
+            "blood" => $_POST['blood'],
+            "age" => $_POST['age'],
+            "gender" => $_POST['gender']
 
 			);
 
