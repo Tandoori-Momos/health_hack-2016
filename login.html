@@ -18,7 +18,13 @@
 
 			$.post('Backend/login.php',data,function(r) {
 				if (r == 'Success') {
-					swal('Success','You have been logged in!',"success");
+					swal({
+                        title:"You have been Signed In!",
+                        text:"Click ok to continue",
+                        type:"success"
+                    }, function(){
+                        window.location.href="dash.php";
+                    });
 				} else {
 					swal("Error",r,"error");
 				}

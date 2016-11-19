@@ -1,29 +1,91 @@
-@font-face {
-	font-family: "md";
-	src: url("md.ttf");
+*{
+	margin: 0;
+	padding: 0;
 }
-@font-face {
-	font-family: "m";
-	src: url("m.ttf");
+body{
+	overflow-x: hidden;
 }
-.header {
+.header{
+	border-bottom: 1px solid #ccc !important;
+	height: 85px !important;
+}
+.nav{
+	font-weight: 400 !important;
+	margin-top: 0px !important;
+}
+.ask{
 	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 240px;
-	border-bottom: 1px solid #eee;
-}
-.logo {
-	font-family:md;
-	font-size: 34px;
-	color: #252525;
-
-}
-input {
-	position: absolute;
-	width: 440px;
 	left: 50%;
-	-webkit-transform: translateX(-50%);
-	bottom: 0;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 30pt;
+	font-family: open sans;
+    color: #555;
+    font-weight: 300;
+    margin-top: -80px;
+}
+.cont{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	height: auto;
+	width: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.lin{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 35%;
+	height: 1px;
+	background-color: #ccc;
+	margin-top: -20px;
+}
+.button{
+	position: relative;
+	padding: 20px 80px;
+	background-color: #28ACD2;
+	color: #fff;
+	font-family: open sans;
+	font-size: 12.5pt;
+	text-transform: uppercase;
+	
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+	cursor: pointer;
+	box-shadow:  0px 0px 0px 0px #0a6fb5;
+	box-shadow:  0px 4px 0px 0px #3a81b3;
+}
+.no{
+	margin-right: none !important;
+}
+.button2{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	padding: 20px 80px;
+	background-color: #28ACD2;
+	color: #fff;
+	font-family: open sans;
+	font-size: 12.5pt;
+	text-transform: uppercase;
+	display: inline-block;
+	float: left;
+	margin-top: 140px;
+	margin-right: 0px;
+	cursor: pointer;
+	box-shadow:  0px 4px 0px 0px #3a81b3;
+}
+.button:active{
+	box-shadow: none;
+	transform: translateY(5px);
+}
+.button2:active{
+	box-shadow: none;
+	transform: translate(-50%,-50%) translateY(5px);
 }
