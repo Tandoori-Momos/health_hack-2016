@@ -1,0 +1,14 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	background-color: transparent;
+	transition: all 0.3s;
+}
+
+html, body {
+	height: 100%;
+}
+
+#map{
+	height: 100%;
+}
